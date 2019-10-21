@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "declaration": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "rootDir": ".",
+    "sourceMap": true,
+    "listFiles": true,
+    "newLine": "LF",
+    "noEmitOnError": true,
+    "outDir": "./dist/out-tsc",
+    "types": []
+  },
+  "filesGlob": [
+    "./**/*.ts",
+    "!./node_modules/**/*.ts",
+    "./node_modules/typescript/lib/lib.es6.d.ts"
+  ],
+  "files": [
+    "./node_modules/typescript/lib/lib.es6.d.ts",
+    "src/index.ts"
+  ],
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [],
+  "awesomeTypescriptLoaderOptions": {
+    "reportFiles": [
+      "src/**/*"
+    ]
+  }
+}

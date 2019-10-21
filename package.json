@@ -1,0 +1,33 @@
+{
+    "name": "webproject-seed",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "npm run serve",
+        "serve": "webpack-dev-server --open",
+        "compile": "webpack"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "awesome-typescript-loader": "^5.2.1",
+        "browser-sync": "^2.26.7",
+        "clean-webpack-plugin": "^3.0.0",
+        "codelyzer": "^5.1.2",
+        "css-loader": "^3.2.0",
+        "html-loader": "^0.5.5",
+        "html-webpack-plugin": "^3.2.0",
+        "mini-css-extract-plugin": "^0.8.0",
+        "node-sass": "^4.12.0",
+        "sass-loader": "^8.0.0",
+        "source-map-loader": "^0.2.4",
+        "ts-node": "^8.4.1",
+        "tslint": "^5.20.0",
+        "typescript": "^3.6.4",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.9",
+        "webpack-dev-server": "^3.8.2"
+    }
+}
